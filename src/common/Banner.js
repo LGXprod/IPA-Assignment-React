@@ -8,7 +8,7 @@ const Banner = () => {
       <div id="banner-image-container" className="banner-width">
         <div id="banner-overlay-left">
           <div id="banner-text">
-            <h2 style={{ color: "white !important" }}>
+            <h2 style={{ color: "white" }}>
               INFRASTRUCTURE
               <br />
               REPORT

@@ -182,10 +182,11 @@ a {
 }
 
 #banner-text hr {
+  display: inline-block;
   width: 50px;
   border: none;
   height: 1.5px;
-  color: white !important;
+  background-color: white;
   opacity: 1 !important;
 }
 
@@ -223,6 +224,7 @@ a {
 @media only screen and (min-width: 992px) {
   .sort-dropdown {
     display: inline-block;
+    margin-left: 5px;
   }
 }
 
