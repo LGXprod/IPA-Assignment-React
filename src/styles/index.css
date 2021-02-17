@@ -1,0 +1,327 @@
+/* Swis721 is a paid font. Used roboto as a place holder.
+Imported using google fonts cdn. */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif !important;
+}
+
+h1,
+h2,
+h3,
+h5 {
+  font-weight: 700 !important;
+  color: #163f67;
+}
+
+label,
+span {
+  font-weight: 400 !important;
+}
+
+p {
+  font-weight: 300 !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.content-width {
+  width: 90vw;
+}
+
+.centered-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.centered-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.center-left {
+  align-items: flex-start;
+}
+
+.center-ends {
+  justify-content: space-between;
+}
+
+.article-info {
+  display: inline-block;
+}
+
+.article-info-container {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.article-icon {
+  width: 20px;
+  margin-right: 5px;
+}
+
+.article-icon-label {
+  color: #51b4b2;
+  vertical-align: middle;
+}
+
+.article-time {
+  margin-right: 5px;
+}
+
+.article-date {
+  margin-left: 5px;
+}
+
+.article-tag {
+  border: 2px solid #51b4b2;
+  color: #51b4b2;
+  padding: 5px;
+  margin-right: 5px;
+}
+
+.more-articles-width {
+  width: 90%;
+}
+
+.more-articles-line {
+  width: 100%;
+}
+
+.small-article-info {
+  width: calc(100% - 200px);
+}
+
+.small-article-container {
+  width: 45%;
+}
+
+.large-thumbnail {
+  width: 350px;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 5px;
+  margin-right: 40px;
+}
+
+.small-thumbnail {
+  width: 200px;
+  height: 86px;
+  overflow: hidden;
+  border-radius: 5px;
+  margin-right: 40px;
+}
+
+.large-thumbnail img,
+.small-thumbnail img {
+  margin-left: 50%;
+  margin-top: 50%;
+  transform: translate(-50%, -50%) scale(0.5);
+}
+
+.article-title-large {
+  width: 70%;
+}
+
+.search-box {
+  display: inline-block;
+  width: 90%;
+  margin: 2px;
+  margin-right: 0;
+}
+
+.search-box-container {
+  width: 60%;
+  background-color: #163f67;
+  border-radius: 4px;
+}
+
+.search-container {
+  padding: 20px;
+  background-color: #ededed;
+}
+
+.banner-width {
+  width: 100vw;
+  max-width:100%;
+}
+
+#banner-overlay-left {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  border-bottom: 10.5vh solid #163F67;
+  border-right: 10.5vh solid transparent;
+  height: 0;
+  width: 50%;
+}
+
+#banner-overlay-right {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 0;
+  height: 0;
+  border-top: 9vh solid #51B4B2;
+  border-left: 90px solid transparent;
+}
+
+#banner-text {
+  float: right;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+#banner-text hr {
+  width: 50px;
+  border: none;
+  height: 1.5px;
+  color: white !important;
+  opacity: 1 !important;
+}
+
+#banner-image-container {
+  display: inline-block;
+  height: 10vh;
+  overflow: hidden;
+  margin-bottom: 20px;
+  position: relative;
+  z-index: 2;
+}
+
+.search-box-width {
+  width: 50%;
+}
+
+.sortby-label {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.main-title span {
+  display: inline-block;
+}
+
+.main-title {
+  margin-top: 40px;
+}
+
+#more-title {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 992px) {
+  .sort-dropdown {
+    display: inline-block;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .sort-dropdown {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .centered-row {
+    display: block;
+  }
+
+  .search-box-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .search-box-width {
+    width: 100%;
+  }
+
+  .sortby-label {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  .main-title {
+    margin-top: 20px;
+  }
+
+  .main-title span {
+    display: block;
+  }
+
+  .article-title-large {
+    width: 100%;
+  }
+
+  .article-tag {
+    display: inline-block;
+    width: fit-content;
+    margin-top: 10px;
+  }
+
+  .large-thumbnail {
+    width: 90vw;
+  }
+
+  .small-thumbnail {
+    width: 90vw;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 5px;
+    margin-right: 40px;
+  }
+
+  #more-title {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  .large-thumbnail img,
+  .small-thumbnail img {
+    margin-left: 50%;
+    margin-top: 50%;
+    transform: translate(-50%, -50%) scale(0.8);
+  }
+
+  .small-article-container,
+  .more-articles-width {
+    width: 90vw;
+  }
+
+  .article-info {
+    width: 90vw;
+  }
+
+  .article-info .article-info {
+    width: fit-content;
+  }
+
+  #banner-text {
+    margin: 0;
+    margin-top: 5px;
+  }
+
+  #banner-text h2 {
+    font-size: medium;
+  }
+
+  #banner-overlay-left {
+    width: 60%;
+  }
+
+  #banner-text hr {
+    width: 25px;
+  }
+}

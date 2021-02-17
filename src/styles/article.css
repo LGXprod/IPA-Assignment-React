@@ -1,0 +1,52 @@
+.thumbnail {
+  display: inline-block;
+  width: 512px;
+  height: 220px;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-right: 40px;
+}
+
+.thumbnail img {
+  margin-left: 50%;
+  margin-top: 50%;
+  transform: translate(-50%, -50%) scale(0.65);
+}
+
+.title {
+  width: 100%;
+}
+
+.title-info {
+  margin-top: 10px;
+}
+
+.nav-component {
+  color: #163F67;
+  font-weight: 700 !important;
+}
+
+.arrow {
+  width: 7.5px;
+  margin-right: 5px;
+  margin-bottom: 2px;
+}
+
+.invert {
+  margin-left: 5px;
+  transform: rotate(180deg);
+}
+
+@media only screen and (max-width: 600px) {
+  .thumbnail {
+    width: 90vw;
+  }
+
+  .nav-component {
+    display: inline-block;
+  }
+
+  #next-arrow {
+    float: right;
+  }
+}
