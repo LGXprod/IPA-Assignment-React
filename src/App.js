@@ -1,8 +1,9 @@
 import React from 'react';
 import Banner from 'common/Banner';
 import SearchBox from 'common/SearchBox';
-import LatestEdition from "section/LatestEdition";
-import "styles/index.css";
+import LatestEdition from 'section/LatestEdition';
+import MoreArticles from 'section/MoreArticles'
+import 'styles/index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -13,6 +14,8 @@ function App() {
       <SearchBox />
 
       <LatestEdition />
+
+      <MoreArticles />
     </div>
   );
 }
