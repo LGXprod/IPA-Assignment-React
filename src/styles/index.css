@@ -28,6 +28,10 @@ a {
   text-decoration: none !important;
 }
 
+label {
+  margin-bottom: 0 !important;
+}
+
 .content-width {
   width: 90vw;
 }
